@@ -47,9 +47,9 @@ export const Container = styled.div`
         transition: box-shadow 0.2s linear;
         margin: 0.5em;
 
-        &:hover{
-            box-shadow: 0.2rem 0.2rem 0 0 var(--white);
-        }
+            &:hover{
+                box-shadow: 0.2rem 0.2rem 0 0 var(--white);
+            }
         }
     }
 `;

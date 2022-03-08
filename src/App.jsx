@@ -1,20 +1,16 @@
-import React, { useState } from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Main from './pages/Main';
 import GlobalStyles from './styles/global';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <Navbar />
-      <div>
-        <h1>hello world</h1>
-      </div>
-
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<Main />} />
+      </Routes>
       <GlobalStyles />
-    </>
+    </BrowserRouter>
   );
 }
 

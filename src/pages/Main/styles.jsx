@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   > div {
+      
     &.content-align {
       display: flex;
       justify-content: center;
       align-items: center;
 
       flex-direction: column;
-      padding: 8rem;
-      margin-bottom: 50rem;
+      padding:8rem;
 
       > h1 {
         overflow: hidden; 
@@ -18,7 +18,7 @@ export const Container = styled.div`
         width: 45rem;
         border-right: 0.15em solid var(--white); 
         white-space: nowrap; 
-        animation: typing 2.0s steps(40, end),
+        animation: typing 1.0s steps(40, end),
           blink-caret 0.75s step-end infinite;
       }
 

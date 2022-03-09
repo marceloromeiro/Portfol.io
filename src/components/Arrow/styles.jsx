@@ -2,40 +2,36 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   #more-arrows {
-width: 75px;
-  height: 65px;
-  
-  &:hover {
-    
-    polygon {
-      fill: #FFF;
-      transition: all .2s ease-out;
+    width: 75px;
+    height: 65px;
 
-      &.arrow-bottom {
-        transform: translateY(-18px);
-      }
+    &:hover {
+      cursor: pointer;
+      polygon {
+        fill: #fff;
+        transition: all 0.2s ease-out;
 
-      &.arrow-top {
-        transform: translateY(18px);
+        &.arrow-bottom {
+          transform: translateY(-18px);
+        }
+
+        &.arrow-top {
+          transform: translateY(18px);
+        }
       }
-      
     }
-  
   }
-  
-}
 
-polygon {
-  fill: #FFF;
-  transition: all .2s ease-out;
-    
-  &.arrow-middle {
-  opacity: 0.75;
-}
+  polygon {
+    fill: #fff;
+    transition: all 0.2s ease-out;
 
-&.arrow-top {
-  opacity: 0.5
-}
- 
-}
+    &.arrow-middle {
+      opacity: 0.75;
+    }
+
+    &.arrow-top {
+      opacity: 0.5;
+    }
+  }
 `;

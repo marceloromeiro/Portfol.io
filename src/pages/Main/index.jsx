@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedText from '../../components/AnimatedText';
 import Arrow from '../../components/Arrow';
 import Navbar from '../../components/Navbar';
 import Apresentation from './partials/Apresentation';
@@ -12,12 +13,13 @@ function Main() {
       <Navbar />
       <div className="content-align">
         <h1 className="line-1 anim-typewriter">Hello World!</h1>
-        <Arrow />
-        <Apresentation />
+        <AnimatedText />
 
       </div>
-
+      <Arrow />
+      <Apresentation />
     </Container>
+
   );
 }
 

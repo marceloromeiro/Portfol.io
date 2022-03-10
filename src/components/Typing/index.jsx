@@ -4,7 +4,9 @@ import { Container } from './styles';
 
 // Será implementado futuramente
 function Typing(props) {
-  const { timer, children, color } = props;
+  const {
+    timer, children, color,
+  } = props;
 
   return (
     <Container timer={timer} color={color}>

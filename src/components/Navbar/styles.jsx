@@ -8,7 +8,7 @@ export const Container = styled.div`
 
   padding: 1rem;
   width: 100%;
-
+  z-index: 1;
   border-bottom: 1px solid grey;
 
   &.actived-navbar {

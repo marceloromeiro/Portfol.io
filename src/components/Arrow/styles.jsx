@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  #more-arrows {
-    width: 75px;
-    height: 65px;
 
+  .more-arrows {
+    height: 5rem;
+    width: 75px;
     &:hover {
       cursor: pointer;
       polygon {
+
         fill: #fff;
         transition: all 0.2s ease-out;
 

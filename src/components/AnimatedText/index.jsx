@@ -5,19 +5,20 @@ import { Container } from './styles';
 
 function AnimatedText(props) {
   const { min, max } = props;
-  const [numberOfDivs, setNumberOfDivs] = useState();
+  const [numberOfDivs, setNumberOfDivs] = useState(1);
 
   useEffect(async () => {
     const interval = setInterval(() => {
-      setNumberOfDivs(Math.floor(Math.random() * (max - min + 1) + min));
-    }, 2000);
+      const div = Math.floor(Math.random() * (max - min + 1) + min);
+      setNumberOfDivs(div);
+      console.log(div);
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <Container className="container" divList={numberOfDivs}>
-      Olá, eu sou Marcelo e
-      {' '}
+    <Container divList={numberOfDivs}>
+      <span>Olá, eu sou Marcelo e </span>
       <div className="dropping-texts">
         <div>
           sou Software Developer
@@ -34,6 +35,9 @@ function AnimatedText(props) {
         <div>
           não sou o Batman
         </div>
+        <div>
+          não conserto impressoras
+        </div>
       </div>
     </Container>
   );
@@ -45,7 +49,7 @@ AnimatedText.propTypes = {
 };
 AnimatedText.defaultProps = {
   min: 1,
-  max: 5,
+  max: 6,
 };
 
 export default AnimatedText;

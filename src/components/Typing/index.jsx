@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Container } from './styles';
 
-// Será implementado futuramente
+// ------------// Será implementado futuramente // ------------//
+
 function Typing(props) {
   const {
     timer, children, color,

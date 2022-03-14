@@ -8,6 +8,9 @@ export const Container = styled.div`
   font-size:36px;
   font-weight:100;
   overflow:hidden;
+  > span {
+    animation: fadein 2s;
+  }
 
 .dropping-texts {
   display: inline-block;
@@ -15,6 +18,7 @@ export const Container = styled.div`
   text-align: left;
   height: 36px;
   vertical-align: -2px;
+  padding-bottom: 2.8rem;
 }
 
 .dropping-texts > div {
@@ -69,6 +73,8 @@ export const Container = styled.div`
 }
 
 
-
-
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 `;

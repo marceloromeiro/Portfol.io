@@ -11,7 +11,17 @@ function Apresentation() {
           Projetos
           <span className="span-color">{' />'}</span>
         </h1>
-        <p />
+
+        <div className="projetos">
+          <div className="card face front">
+            <h1>Projeto 1</h1>
+            <p>Resumo aqui de tudo que o projeto faz e tals</p>
+          </div>
+          <div className="card face back">
+            <h1>Projeto 2</h1>
+            <p>Resumo aqui de tudo que o projeto faz e tals²</p>
+          </div>
+        </div>
 
       </div>
 

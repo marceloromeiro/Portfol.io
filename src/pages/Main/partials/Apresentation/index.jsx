@@ -15,12 +15,16 @@ function Apresentation() {
 
         <div className="projetos">
           <div>
+            <h1>
+              <span className="span-color">{'< '}</span>
+              Portal Ecommerce (Zema)
+              <span className="span-color">{' />'}</span>
+            </h1>
             <div className="image">
               <img src={portalecom} alt="portalecom" />
               <span className="redirects">Não participei da criação desse portal, mas já atuei muito nele, portanto ele tem um espacinho no meu coração e no portfólio </span>
             </div>
             <div className="content">
-              <h1>Portal Ecommerce (Zema)</h1>
               <p>
                 Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit. Etiam

@@ -41,7 +41,7 @@ export const Container = styled.div`
         &:hover {
             color:var(--gray-800);
             cursor: pointer;
-            box-shadow: 0.2rem 0.2rem 0.2rem 0 var(--gray-900);
+            box-shadow: -0.6rem 0.6rem 0.2rem 0 var(--gray-900);
             span{
                 opacity: 1;
                 position: absolute;

@@ -29,19 +29,22 @@ export const Container = styled.div`
         align-items: flex-end;
         transition: box-shadow 0.3s linear;
         border-radius: 0.2rem;
-        box-shadow: -0.3rem 0.3rem 0.2rem 0 var(--gray-900);
+        box-shadow: -0.3rem 0.3rem 0.4rem 0 var(--gray-900);
+
+        border-radius: 0.5rem;
 
         width: 49.7vw;
         height: 50vh;
 
         img {
+            border-radius: 0.5rem;
             max-width: 100%;
             max-height: 100%;
         }
         &:hover {
             color:var(--gray-800);
             cursor: pointer;
-            box-shadow: -0.6rem 0.6rem 0.2rem 0 var(--gray-900);
+            box-shadow: -0.6rem 0.6rem 1rem 0 var(--gray-900);
             span{
                 opacity: 1;
                 position: absolute;
@@ -59,8 +62,7 @@ export const Container = styled.div`
             padding: 0.5rem;
             height: 20%;
             width: 49.7vw;
-
-            border-radius: 0.2rem;
+            border-radius: 0.5rem;
             font-weight: 600;
         }
       }

@@ -10,7 +10,7 @@ function Apresentation() {
         <h1 className="project-header">
           <span className="span-color">{'< '}</span>
           Projetos
-          <span className="span-color">{' />'}</span>
+          <span className="span-color">{' >'}</span>
         </h1>
 
         <div className="projetos">
@@ -49,13 +49,48 @@ function Apresentation() {
             </div>
           </div>
           <div className="dummyContent">
-            <h1>Projeto 2</h1>
-            <p>Resumo aqui de tudo que o projeto faz e tals²</p>
+            <h1>
+              <span className="span-color">{'< '}</span>
+              Algum Projeto
+              <span className="span-color">{' />'}</span>
+            </h1>
+            <div className="image">
+              <img alt="portalecom" />
+              <span className="redirects">Não participei da criação desse portal, mas já atuei muito nele, portanto ele tem um espacinho no meu coração e no portfólio </span>
+            </div>
+            <div className="content">
+              <p>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Etiam
+                non mollis magna. Aenean dignissim
+                mauris id felis molestie, suscipit
+                pulvinar sapien tristique. Sed gravida
+                mattis felis eu molestie. Pellentesque
+                velit neque, accumsan sit amet iaculis ut,
+                ornare ac nulla. Vestibulum sollicitudin
+                lorem erat, vitae consectetur elit varius
+                sed. Cras tortor magna, iaculis et orci vel,
+                tristique semper nulla. Maecenas porttitor est
+                nec magna sodales aliquam. Mauris a elit interdum,
+                dapibus odio ac, blandit nulla. Curabitur justo ante,
+                pretium a lectus ut, ultrices porta urna. Nunc vestibulum
+                aliquam ante, sed luctus purus interdum sit amet. Sed lobortis
+                sagittis lacus ac iaculis. Donec auctor, nibh ac semper cursus,
+                nisl diam maximus orci, vitae varius nulla leo eu lectus. Fusce
+                eget lectus ultrices, malesuada sem sed, dapibus ipsum. Nam non imperdiet massa.
+
+              </p>
+            </div>
           </div>
         </div>
 
       </div>
 
+      <h1 className="project-header">
+        <span className="span-color">{'</ '}</span>
+        Projetos
+        <span className="span-color">{' >'}</span>
+      </h1>
     </Container>
   );
 }

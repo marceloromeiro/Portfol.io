@@ -8,23 +8,22 @@ export const Container = styled.div`
 
 export const HelloWorld = styled.div`
   height: 100vh;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
   h1 {
-    height: 21rem;
+    min-height: 25vh;
+    font-size: 21vh;
     margin-top: 8rem;
     margin-bottom: 7rem;
     overflow: hidden;
-    font-size: 8rem;
     border-right: 0.15em solid var(--white);
     white-space: nowrap;
     animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
   }
 
-  .teste{
+  .animated-block{
     height: 100%;
     display: flex;
     flex-direction: column;
